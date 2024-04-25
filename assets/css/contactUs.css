@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+
+.contactBody {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #09080D;
+	font-family: poppins;
+}
+
+.contact {
+	font-size: 40px;
+	color: #ededed;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.contact form{
+	width: 600px;
+	text-align: center;
+}
+
+form .input-box{
+	display: flex;
+	justify-content: space-between;
+}
+
+.input-box .input-field{
+	width: 45%;
+}
+
+.field .item{
+	width: 100%;
+	padding: 18px;
+	background: transparent;
+	border: 2px solid #0ef;
+	outline: none;
+	border-radius: 6px;
+	font-size: 16px;
+	color: #ededed;
+	margin: 12px 0;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.field.error .item{
+	border-color: #ff004f;
+}
+
+.field .item::placeholder {
+	color: #0ef;
+}
+
+.field .error-txt{
+	font-size: 14.5px;
+	color: #ff004f;
+	text-align: left;
+	margin: -5px 0 10px;
+	display: none;
+}
+
+.field.error .error-txt{
+	display: block;
+}
+
+form .textarea-field .item{
+	resize: none;
+}
+
+form .textarea-field .error-txt{
+	margin-top: -10px;
+}
+
+.contactButton {
+	background: #7079f0;
+	color: white;
+	font-family: inherit;
+	padding: 0.45em;
+	padding-left: 1em;
+	font-size: 17px;
+	font-weight: 500;
+	border-radius: 0.9em;
+	border: none;
+	cursor: pointer;
+	letter-spacing: 0.05em;
+	display: flex;
+	align-items: center;
+	box-shadow: inset 0 0 1.6em -0.6em #714da6;
+	overflow: hidden;
+	position: relative;
+	height: 2.8em;
+	padding-right: 3em;
+  }
+  
+  .iconButton {
+	margin-left: 1em;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2.2em;
+	width: 2.2em;
+	border-radius: 0.7em;
+	box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+	right: 0.3em;
+	transition: all 0.3s;
+  }
+  
+  .contactButton:hover {
+	transform: translate(-0.05em, -0.05em);
+	box-shadow: 0.15em 0.15em #5566c2;
+  }
+  
+  .contactButton:active {
+	transform: translate(0.05em, 0.05em);
+	box-shadow: 0.05em 0.05em #5566c2;
+  }
+  

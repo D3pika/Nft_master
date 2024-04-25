@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 
+    - Setting Up Angular JS
+  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+
+  <title>NFT MASTER</title>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@600;900&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="68" height="48" alt="NFTC Logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <p class="navbar-title">Menu</p>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-circle-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-navlink>Home</a>
+          </li>
+
+          <li>
+            <a href="#explore" class="navbar-link" data-navlink>Explore</a>
+          </li>
+
+          <li>
+            <a href="#top-seller" class="navbar-link" data-navlink>Top Seller</a>
+          </li>
+
+          <li>
+            <a href="#collection" class="navbar-link" data-navlink>Collection</a>
+          </li>
+
+          <li>
+            <a href="#instruction" class="navbar-link" data-navlink>Instruction</a>
+          </li>
+
+          <li>
+            <a href="contactUs.html" class="navbar-link" data-navlink>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="menu-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <a href="store/index.html" class="btn" aria-labelledby="wallet">
+        <ion-icon name="wallet-outline"></ion-icon>
+
+        <span id="wallet">BUY TO WALLET</span>
+      </a>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+
+        <div class="container">
+
+          <p class="section-subtitle">World Of NFTs</p>
+
+          <h2 class="h1 hero-title">Discover, collect, and sell extraordinary NFTs</h2>
+
+          <p class="hero-text">
+            Explore on the world's best & largest NFT marketplace
+          </p>
+
+          <div class="btn-group">
+
+           
+             <a href="#explore" class="btn" aria-labelledby="wallet">
+                <ion-icon name="rocket-outline" aria-hidden="true"></ion-icon>
+        
+                <span>Explore</span>
+              </a>
+           
+
+            <!-- <button class="btn">
+              <ion-icon name="create-outline" aria-hidden="true"></ion-icon>
+
+              <span>Create</span>
+            </button> -->
+
+          </div>
+
+        </div>
+        
+        <img src="./assets/images/bg.png" class= "hero-bg-bottom" id="bgVideo">
+          
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EXPLORE
+      -->
+
+      <section class="section explore" id="explore">
+        <div class="container">
+
+          <p class="section-subtitle">Exclusive Assets</p>
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Explore</h2>
+
+            <a href="#" class="btn-link">
+              <span>Explore All</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-1.jpeg" width="600" height="600" loading="lazy"
+                      alt="Walking On Air" class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">TV on Giza</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">Richard</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="1.5">1.5 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <!-- <button type="submit" class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-2.jpeg" width="600" height="600" loading="lazy" alt="Domain Names"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">The Cyber Village</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">John Deo</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="2.7">2.7 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <!-- <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-3.jpeg" width="600" height="600" loading="lazy" alt="Trading Cards"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Wheels on Trading </a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">Arham</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="2.3">2.3 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <!-- <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-4.jpeg" width="600" height="600" loading="lazy"
+                      alt="Industrial Revolution" class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Robotic Thanos</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">Yasmin</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="1.8">1.8 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <!-- <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-5.jpeg" width="600" height="600" loading="lazy" alt="Utility"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">City</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">Junaid</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="1.7">1.7 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <!-- <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-6.jpeg" width="600" height="600" loading="lazy" alt="Sports"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Sports</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">ArtNox</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="1.7">1.7 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <!-- <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-7.jpeg" width="600" height="600" loading="lazy"
+                      alt="Cartoon Heroes" class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Shattering Blocks</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">Junaid</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="3.2">3.2 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <!-- <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-8.jpeg" width="600" height="600" loading="lazy" alt="Gaming Chair"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">One Eye</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">Johnson</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="0.69">0.69 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+<!-- 
+                <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-9.jpeg" width="600" height="600" loading="lazy" alt="Utility"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Utility</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">Junaid</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="1.7">1.7 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <!-- <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-10.jpeg" width="600" height="600" loading="lazy" alt="Sports"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">City of Lights</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">ArtNox</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="1.7">1.7 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <!-- <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-11.jpeg" width="600" height="600" loading="lazy"
+                      alt="Cartoon Heroes" class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Lone Tree</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">Junaid</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="3.2">3.2 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <!-- <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction-12.jpeg" width="600" height="600" loading="lazy" alt="Gaming Chair"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Cyclon</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">Johnson</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="0.69">0.69 ETH</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <!-- <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button> -->
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOP SELLER
+      -->
+
+      <section class="section top-seller" id="top-seller">
+        <div class="container">
+
+          <p class="section-subtitle">Creative Artist</p>
+
+          <h2 class="h2 section-title">Top Sellers</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                  <a href="#">
+                    <img src="./assets/images/avatar-1.jpg" width="64" height="64" loading="lazy" alt="Richard">
+                  </a>
+                </figure>
+
+                <div>
+                  <h3 class="card-title">
+                    <a href="#">@Richard</a>
+                  </h3>
+
+                  <data value="1.5">1.5 BNB</data>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                  <a href="#">
+                    <img src="./assets/images/avatar-2.jpg" width="64" height="64" loading="lazy" alt="John Deo">
+                  </a>
+                </figure>
+
+                <div>
+                  <h3 class="card-title">
+                    <a href="#">@JohnDeo</a>
+                  </h3>
+
+                  <data value="2.3">2.3 BNB</data>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                  <a href="#">
+                    <img src="./assets/images/avatar-3.jpg" width="64" height="64" loading="lazy" alt="Junaid">
+                  </a>
+                </figure>
+
+                <div>
+                  <h3 class="card-title">
+                    <a href="#">@Junaid</a>
+                  </h3>
+
+                  <data value="2.5">2.5 BNB</data>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                  <a href="#">
+                    <img src="./assets/images/avatar-4.jpg" width="64" height="64" loading="lazy" alt="Yasmin">
+                  </a>
+                </figure>
+
+                <div>
+                  <h3 class="card-title">
+                    <a href="#">@Yasmin</a>
+                  </h3>
+
+                  <data value="1.9">1.9 BNB</data>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                  <a href="#">
+                    <img src="./assets/images/avatar-5.jpg" width="64" height="64" loading="lazy" alt="Arham H">
+                  </a>
+                </figure>
+
+                <div>
+                  <h3 class="card-title">
+                    <a href="#">@ArhamH</a>
+                  </h3>
+
+                  <data value="3.2">3.2 BNB</data>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                  <a href="#">
+                    <img src="./assets/images/avatar-6.jpg" width="64" height="64" loading="lazy" alt="Sara">
+                  </a>
+                </figure>
+
+                <div>
+                  <h3 class="card-title">
+                    <a href="#">@Sara</a>
+                  </h3>
+
+                  <data value="4.7">4.7 BNB</data>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection" id="collection">
+        <div class="container">
+
+          <p class="section-subtitle">Most Popular</p>
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Popular Collections</h2>
+
+            <a href="#" class="btn-link">
+              <span>View All</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/author-banner-1.jpeg" width="600" height="450" loading="lazy"
+                    alt="Virtual Worlds" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar-1.jpg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Virtual Worlds</h3>
+
+                <span class="card-text">ERC-729</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/author-banner-2.jpeg" width="600" height="450" loading="lazy"
+                    alt="Digital Arts" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar-2.jpg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Digital Arts</h3>
+
+                <span class="card-text">ERC-522</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/author-banner-3.jpeg" width="600" height="450" loading="lazy" alt="Sports"
+                    class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar-3.jpg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Sports</h3>
+
+                <span class="card-text">ERC-495</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/author-banner-4.jpeg" width="600" height="450" loading="lazy"
+                    alt="Photography" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar-4.jpg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Photography</h3>
+
+                <span class="card-text">ERC-873</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/author-banner-5.jpeg" width="600" height="450" loading="lazy"
+                    alt="Collectibles" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar-5.jpg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Collectibles</h3>
+
+                <span class="card-text">ERC-972</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/author-banner-6.jpeg" width="600" height="450" loading="lazy"
+                    alt="Trading Cards" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar-6.jpg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Trading Cards</h3>
+
+                <span class="card-text">ERC-397</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/author-banner-7.jpeg" width="600" height="450" loading="lazy"
+                    alt="Walking On Air" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar-7.jpg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Walking On Air</h3>
+
+                <span class="card-text">ERC-403</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/author-banner-8.jpeg" width="600" height="450" loading="lazy"
+                    alt="Domain Names" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar-8.jpg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Domain Names</h3>
+
+                <span class="card-text">ERC-687</span>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #INSTRUCTION
+      -->
+
+      <section class="section instruction" id="instruction">
+        <div class="container">
+
+          <p class="section-subtitle">How It Works</p>
+
+          <h2 class="h2 section-title">Create and sell your NFTs</h2>
+
+          <ul class="grid-list">
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="wallet-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">Set up your wallet</h3>
+
+              <p class="instruction-text">
+                Once you’ve set up your wallet of choice, connect it to OpenSea by clicking the NFT Marketplace in the
+                top right corner.
+                Learn about the wallets we support.
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="grid-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">Create your collection</h3>
+
+              <p class="instruction-text">
+                Click Create and set up your collection. Add social links, a description, profile & banner images, and
+                set a secondary
+                sales fee.
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="file-tray-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">Add your NFTs</h3>
+
+              <p class="instruction-text">
+                Upload your work (image, video, audio, or 3D art), add a title and description, and customize your NFTs
+                with properties,
+                stats, and unlockable content.
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="bag-handle-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">List them for sale</h3>
+
+              <p class="instruction-text">
+                Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to
+                sell your NFTs!
+              </p>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" aria-label="Back to Top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    var app = angular.module('myApp', []);
+  </script>
+
+<script>
+  app.controller('HeaderController', function() {
+      
+  });
+</script>
+
+
+
+
+</body>
+
+</html>

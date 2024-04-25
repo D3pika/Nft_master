@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="assets/css/contactUs.css">
+</head>
+
+<body class="contactBody">
+	<section class="contact">
+		<h2>Contact Us !</h2>
+
+		<form action="#">
+
+			<div class="input-box">
+				<div class="input-field field">
+					<input type="text" placeholder="Full Name" id="name" class="item" autocomplete="on">
+					<div class="error-txt">Full Name cannot be empty</div>
+				</div>
+
+				<div class="input-field field">
+					<input type="email" placeholder="Email Address" id="email" class="item" autocomplete="on">
+					<div class="error-txt">Email cannot be empty</div>
+				</div>
+			</div>
+
+			<div class="input-box">
+				<div class="input-field field">
+					<input type="tel" placeholder="Phone Number" id="phone" class="item" autocomplete="on">
+					<div class="error-txt">Phone number cannot be empty</div>
+				</div>
+
+				<div class="input-field field">
+					<input type="text" placeholder="Subject" id="subject" class="item" autocomplete="on">
+					<div class="error-txt">Subject cannot be empty</div>
+				</div>
+			</div>
+
+			<div class="textarea-field field">
+				<textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off" ></textarea>
+				<div class="error-txt">Message cannot be empty</div>
+			</div>
+
+			<button type="submit" class="contactButton">
+				Send Message
+			</button>
+
+		</form>
+	</section>
+
+	<script src="assets/js/contactUs.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
